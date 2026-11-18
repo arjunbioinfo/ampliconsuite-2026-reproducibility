@@ -4,6 +4,8 @@ Independent computational reproduction of the AmpliconClassifier v1.5.1 ecDNA va
 
 ## Figure 1 result
 
+![Reconstructed confusion matrix and precision and recall under two scoring rules](results/figures/figure1-validation.png)
+
 Across 175 gene probes in 72 cell lines, the treatment of four probes changes estimated precision by 5.9 percentage points.
 
 | Treatment of four uncertain probes | TP | FP | TN | FN | Neutral | Precision | Recall |
@@ -31,6 +33,8 @@ python3 -m venv .venv
 ```
 
 [Validation results and interpretation](results/validation/REPORT.md) · [Probe-level audit](results/validation/probe_audit.tsv) · [Computed metrics](results/validation/metrics.tsv)
+
+To regenerate the figure from the metrics table, install `matplotlib==3.10.1` in the same environment and run `.venv/bin/python scripts/plot_validation.py`.
 
 ## Planned analyses
 
