@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this reproduction, please cite it as below, and cite the original AmpliconSuite paper."
+type: software
+title: "ampliconsuite-2026-reproducibility: independent reproduction of the AmpliconClassifier FISH validation"
+version: 0.1.0
+date-released: 2026-11-20
+license: MIT
+url: "https://arjunbioinfo.github.io/"
+repository-code: "https://github.com/arjunbioinfo/ampliconsuite-2026-reproducibility"
+authors:
+  - family-names: "Thippana"
+    given-names: "Mallikarjuna"
+    affiliation: "Department of Oncology-Pathology, Karolinska Institutet"
+    orcid: "https://orcid.org/0000-0001-8485-8626"
+keywords:
+  - ecDNA
+  - AmpliconSuite
+  - reproducibility
+  - cancer genomics
+references:
+  - type: article
+    title: "AmpliconSuite: an end-to-end workflow for analyzing focal amplifications in cancer genomes"
+    authors:
+      - family-names: "Luebeck"
+        given-names: "Jens"
+    journal: "Nature Methods"
+    volume: 23
+    start: 2141
+    end: 2146
+    year: 2026
+    doi: "10.1038/s41592-026-03264-x"
