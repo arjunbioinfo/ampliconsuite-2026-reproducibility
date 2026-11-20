@@ -7,6 +7,7 @@ date-released: 2026-11-20
 license: MIT
 url: "https://arjunbioinfo.github.io/"
 repository-code: "https://github.com/arjunbioinfo/ampliconsuite-2026-reproducibility"
+doi: "10.5281/zenodo.24392033"
 authors:
   - family-names: "Thippana"
     given-names: "Mallikarjuna"
