@@ -43,3 +43,16 @@ To regenerate the figure from the metrics table, install `matplotlib==3.10.1` in
 3. Extend the benchmark with a coverage sensitivity experiment, recording the input read set, subsampling seeds and changes in calls.
 
 Raw-read processing, independent image scoring and the earlier classifier versions are outside the completed first milestone.
+
+## Data and credit
+
+The FISH observations, classifier calls and Figure 1 source data come from Luebeck *et al.*, [*Nature Methods* 23, 2141–2146 (2026)](https://doi.org/10.1038/s41592-026-03264-x). The two workbooks in `data/` are unmodified copies of the article's supplementary files, redistributed under its [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) licence; see [data/README.md](data/README.md). All credit for the AmpliconSuite tools, the cell-line imaging and the original analysis belongs to the authors. This repository is an independent reproduction and is not affiliated with or endorsed by them.
+
+## License
+
+The code in this repository (`scripts/`) is released under the [MIT License](LICENSE). The files in `data/` keep their original CC BY 4.0 licence.
+
+## Author
+
+**Mallikarjuna Thippana, PhD** — Computational Biologist, Karolinska Institutet  
+[Portfolio](https://arjunbioinfo.github.io/) · [ORCID](https://orcid.org/0000-0001-8485-8626) · [Google Scholar](https://scholar.google.com/citations?user=NpLUj68AAAAJ) · [GitHub](https://github.com/arjunbioinfo)
